@@ -124,7 +124,7 @@ export default function NavBar({ name, items }) {
 
   return (
     <>
-      <nav className={`flex justify-between items-center px-5 lg:px-28 fixed w-full h-23 ${theme === 'dark' ? 'bg-mysecondary text-white' : 'bg-white text-mysecondary'} `}>
+      <nav className={`flex  bigscreen justify-between items-center px-5 lg:px-28 fixed w-full h-23 ${theme === 'dark' ? 'bg-mysecondary text-white' : 'bg-white text-mysecondary'} `}>
         <h1 className='text-xl font-semibold'>{name}</h1>
 
         <div className='hidden md:flex lg:flex justify-between w-63'>

@@ -12,8 +12,8 @@ export default function StoriesComponent({pagetitle ,title , desc , holder , val
         <h1 className={` ${theme === 'dark' ? 'text-white ' : 'text-text-myprimary '}   font-semibold  text-5xl text-center`}>{title}</h1>
         <p className='text-center text-mythird text-xl font-normal pt-6 pb-10 '>{desc}</p>
         <form className=' flex flex-wrap md:flex-nowrap gap-4 m-auto'>
-            <input className='w-85 h-12 text-base text-mythird border border-solid rounded-lg  border-inputborder ' type='email' placeholder={holder}></input>
-            <input className='h-12 w-29 bg-active rounded-lg py-3 px-5 text-white  ' type='submit' value={valueBtn}></input>
+            <input className='w-full max-w-85 h-12 text-base text-mythird border border-solid rounded-lg  border-inputborder ' type='email' placeholder={holder}></input>
+            <input className='h-12 w-full max-w-29 bg-active rounded-lg py-3 px-5 text-white  ' type='submit' value={valueBtn}></input>
         </form>
         <p className='text-sm font-normal text-mythird pt-2 pb-7 '>
             {text}

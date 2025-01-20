@@ -24,7 +24,7 @@ export default function Details() {
 
 
     return (
-        <section className=' px-5 pt-36 lg:px-28'>
+        <section className={` px-5 pt-36 lg:px-28 ${theme === 'dark' ? 'bg-mysecondary ' : 'bg-white '}`}>
         <div className={`w-full max-w-110 ${theme === 'dark' ? 'bg-mysecondary ' : 'bg-white '} `}>
         <div className=' w-full flex justify-between flex-wrap md:flex-nowrap gap-4 md:gap-8'>
             <div className=" w-full max-w-screen-sm md:w-full md:max-w-83 flex flex-col gap-y-8 ">

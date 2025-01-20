@@ -33,10 +33,10 @@ export default function AllBlogs({ title }) {
     return (
         <div className={`px-5 lg:px-28 ${theme === 'dark' ? 'bg-mysecondary' : 'bg-white'}`}>
             <MainTitle title={title} />
-            <div className='flex justify-between items-center gap-y-12 flex-wrap w-full max-w-110'>
+            <div className='flex justify-between items-center gap-y-12 flex-wrap w-full'>
                 {currentItems.map((blog, index) => (
                     <div className='w-full md:max-w-82 xl:w-0.5/5'>
-                        <BlogCards key={index} blog={blog} first={'first'} all={'all'} />
+                        <BlogCards key={index} blog={blog} first={'first'} all={'all'} hiddenbtn='hiddenbtn' AllBlogHigh='AllBlogHigh' />
                     </div>
                 ))}
             </div>

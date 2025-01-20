@@ -16,6 +16,14 @@
   @apply transition-colors-duration-200 */
 }
 
+@media (min-width:1500px){
+  .bigscreen{
+    margin: auto;
+    width: 100%;
+    max-width: 1600px !important;
+  }
+}
+
 
 
 /* 

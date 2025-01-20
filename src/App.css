@@ -632,6 +632,10 @@ video {
   height: 1.5rem;
 }
 
+.h-\[500px\]{
+  height: 500px;
+}
+
 .h-full{
   height: 100%;
 }
@@ -656,10 +660,6 @@ video {
   width: 6rem;
 }
 
-.w-29{
-  width: 118px;
-}
-
 .w-6{
   width: 1.5rem;
 }
@@ -672,20 +672,12 @@ video {
   width: 2rem;
 }
 
-.w-85{
-  width: 360px;
-}
-
 .w-full{
   width: 100%;
 }
 
-.w-0{
-  width: 0px;
-}
-
-.w-0\.5\/5{
-  width: 31.6%;
+.\!max-w-5xl{
+  max-width: 64rem !important;
 }
 
 .max-w-100{
@@ -698,6 +690,10 @@ video {
 
 .max-w-110{
   max-width: 1216px;
+}
+
+.max-w-5xl{
+  max-width: 64rem;
 }
 
 .max-w-screen-sm{
@@ -848,6 +844,16 @@ video {
      object-fit: cover;
 }
 
+.\!px-2\.5{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.\!py-0\.5{
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
 .px-0{
   padding-left: 0px;
   padding-right: 0px;
@@ -884,6 +890,10 @@ video {
 
 .pb-3{
   padding-bottom: 0.75rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
 }
 
 .pb-6{
@@ -1051,6 +1061,14 @@ video {
   @apply transition-colors-duration-200 */
 }
 
+@media (min-width:1500px){
+  .bigscreen{
+    margin: auto;
+    width: 100%;
+    max-width: 1600px !important;
+  }
+}
+
 /* 
 npx tailwindcss -i ./src/index.css -o ./src/App.css --watch */
 
@@ -1073,28 +1091,8 @@ npx tailwindcss -i ./src/index.css -o ./src/App.css --watch */
     height: 3.5rem;
   }
 
-  .md\:w-1\/3{
-    width: 33.333333%;
-  }
-
-  .md\:w-1\/4{
-    width: 25%;
-  }
-
   .md\:w-full{
     width: 100%;
-  }
-
-  .md\:w-0{
-    width: 0px;
-  }
-
-  .md\:w-0\.5\/5{
-    width: 31.6%;
-  }
-
-  .md\:w-85{
-    width: 360px;
   }
 
   .md\:max-w-105{
@@ -1107,6 +1105,10 @@ npx tailwindcss -i ./src/index.css -o ./src/App.css --watch */
 
   .md\:max-w-83{
     max-width: 342px;
+  }
+
+  .md\:max-w-\[360px\]{
+    max-width: 360px;
   }
 
   .md\:flex-row{
@@ -1195,8 +1197,8 @@ npx tailwindcss -i ./src/index.css -o ./src/App.css --watch */
 }
 
 @media (min-width: 1280px){
-  .xl\:w-full{
-    width: 100%;
+  .xl\:\!w-\[26\.1\%\]{
+    width: 26.1% !important;
   }
 
   .xl\:w-0{
@@ -1205,10 +1207,6 @@ npx tailwindcss -i ./src/index.css -o ./src/App.css --watch */
 
   .xl\:w-0\.5\/5{
     width: 31.6%;
-  }
-
-  .xl\:max-w-82\.5{
-    max-width: 384px;
   }
 
   .xl\:text-110xl{
