@@ -632,6 +632,10 @@ video {
   height: 1.5rem;
 }
 
+.h-\[377px\]{
+  height: 377px;
+}
+
 .h-\[500px\]{
   height: 500px;
 }
@@ -642,6 +646,18 @@ video {
 
 .h-screen{
   height: 100vh;
+}
+
+.h-\[300px\]{
+  height: 300px;
+}
+
+.h-\[600px\]{
+  height: 600px;
+}
+
+.h-\[450px\]{
+  height: 450px;
 }
 
 .max-h-28{
@@ -934,6 +950,14 @@ video {
 
 .text-center{
   text-align: center;
+}
+
+.indent-1{
+  text-indent: 0.25rem;
+}
+
+.indent-3{
+  text-indent: 0.75rem;
 }
 
 .text-2xl{

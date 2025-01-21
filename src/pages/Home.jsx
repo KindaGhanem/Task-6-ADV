@@ -2,7 +2,6 @@ import React from 'react'
 import Hero from '../component/Hero'
 import RecentBlog from '../component/RecentBlog'
 import AllBlogs from '../component/AllBlogs'
-import { useSelector } from 'react-redux';
 
 
 export default function Home() {

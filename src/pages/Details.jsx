@@ -31,7 +31,7 @@ export default function Details() {
             <MainTitle title='Recent blog posts' />
                    {randomBlogs.map((blog) => (
                         <div className="w-full max-w-screen-sm md:w-full md:max-w-83" key={blog.id}>
-                            <BlogCards blog={blog} first={'first'} side={'side'}  />
+                            <BlogCards blog={blog} first={'first'} side={'side'} hiddenbtn='hiddenbtn'  />
                         </div>
                     ))}
             </div>

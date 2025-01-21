@@ -35,7 +35,7 @@ export default function AllBlogs({ title }) {
             <MainTitle title={title} />
             <div className='flex justify-between items-center gap-y-12 flex-wrap w-full'>
                 {currentItems.map((blog, index) => (
-                    <div className='w-full md:max-w-82 xl:w-0.5/5'>
+                    <div className='w-full md:max-w-[360px] xl:w-0.5/5 gap-4 '>
                         <BlogCards key={index} blog={blog} first={'first'} all={'all'} hiddenbtn='hiddenbtn' AllBlogHigh='AllBlogHigh' />
                     </div>
                 ))}

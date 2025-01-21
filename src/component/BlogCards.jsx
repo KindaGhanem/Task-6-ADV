@@ -13,10 +13,10 @@ export default function BlogCards({ blog , first , right ,under , all ,side , hi
   const { theme } = useSelector(state => state.blogs);
 
   return (
-        <div  onClick={handleCardClick} className= {` ${AllBlogHigh ? ' h-[500px]' : ''}${side ? ' w-full max-w-screen-sm md:w-full md:max-w-83 flex flex-col ' : ''}
+        <div  onClick={handleCardClick} className= {` ${AllBlogHigh ? ' h-[600px]' : ''}${side ? ' w-full max-w-screen-sm md:w-full md:max-w-83 flex flex-col ' : ''}
          ${right ? 'flex justify-between gap-6 flex-wrap lg:flex-nowrap' : ''}
          ${under ? 'flex justify-between gap-8 pt-14 pb-8 flex-wrap lg:flex-nowrap w-full ' : ''} `}>
-            <img className= {` w-full object-cover ${first ? 'mb-8 ' : ''} ${under ? ' w-full max-w-100 lg:w-2.5/5' : ''} `} src={blog.img} alt={''} ></img>
+            <img className= {` w-full object-cover ${AllBlogHigh ? ' h-[300px]' : ''} ${first ? 'mb-8 ' : ''} ${under ? ' w-full lg:w-2.5/5' : ''} `} src={blog.img} alt={''} ></img>
             <div className= {` w-full ${under ? ' lg:w-2.5/5' : ''} ${right ? 'w-72' : ''} `}>
               <div className="flex">
                 <span  className= {`text-mypurble text-sm	font-semibold ${first ? 'mb-3 ' : ''} ${right ? ' pb-3  ' : ''} `}>{blog.writer}</span>
