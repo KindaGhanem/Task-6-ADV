@@ -900,6 +900,16 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-23{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -1100,6 +1110,11 @@ npx tailwindcss -i ./src/index.css -o ./src/App.css --watch */
   .sm\:block{
     display: block;
   }
+
+  .sm\:py-8{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }
 
 @media (min-width: 768px){
@@ -1231,6 +1246,11 @@ npx tailwindcss -i ./src/index.css -o ./src/App.css --watch */
 
   .xl\:w-0\.5\/5{
     width: 31.6%;
+  }
+
+  .xl\:py-8{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .xl\:text-110xl{

@@ -40,7 +40,7 @@ export default function AllBlogs({ title }) {
                     </div>
                 ))}
             </div>
-            <div className=" py-8 flex justify-center items-center md:justify-between w-full flex-col md:flex-row">
+            <div className=" py-23 sm:py-8 flex justify-center items-center md:justify-between w-full flex-col md:flex-row">
                 <button className='w-20 h-5 text-mythird flex gap-2 ' onClick={handlePrev} disabled={currentPage === 1}> <FaArrowLeft /> Previos</button>
                 <div className='flex gap-1.5'>
                     {Array.from({ length: totalPages }, (_, index) => {

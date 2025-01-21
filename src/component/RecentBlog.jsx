@@ -21,7 +21,7 @@ const blogs = useSelector(selectLastFourBlogs);
                 <div className='flex justify-between gap-8  w-full flex-wrap lg:flex-nowrap'>
                     <div className="w-full max-w-5xl lg:w-2.5/5">
                         {blogs.length > 0 && (
-                            <BlogCards key={blogs[0].id} blog={blogs[0]} first={'first'} />
+                            <BlogCards key={blogs[0].id} blog={blogs[0]} first={'first'}  />
                         )}
                     </div>
                     <div className="w-full max-w-5xl flex flex-col gap-8 lg:w-2.5/5">
