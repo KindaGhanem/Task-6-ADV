@@ -16,15 +16,15 @@ function App() {
     // "Newsletter"
     
     {
-      id:'/Task-6-ADV' ,
+      id:'/Task-6-ADV/' ,
       name : "Blog"
     },
     {
-      id:'/Task-6-ADV' ,
+      id:'/Task-6-ADV/' ,
       name : "Projects"
     },
     {
-      id:'/Task-6-ADV' ,
+      id:'/Task-6-ADV/' ,
       name : "About"
     },
     {
@@ -37,7 +37,7 @@ function App() {
     < >
       <NavBar name={'Your Name'} logoDesc='logo' items={navItems} btn='login' />
       <Routes>
-        <Route path='/Task-6-ADV' element={<Home />}></Route>
+        <Route path='/Task-6-ADV/' element={<Home />}></Route>
         <Route path='/Details/:id' element={<Details />}></Route>
         <Route path='/Newsletter' element={<NewsLetter />}></Route>
       </Routes>
