@@ -1,6 +1,6 @@
 import './App.css'
 import NavBar from './component/NavBar'
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home.jsx';
 import Footer from './component/Footer.jsx';
 import Details from './pages/Details.jsx';
@@ -34,9 +34,10 @@ function App() {
   ]
   
   return (
-    < >
+    <>
       <NavBar name={'Your Name'} logoDesc='logo' items={navItems} btn='login' />
       <Routes>
+        <Route path="/" element={<Navigate to="/Task-6-ADV/" />} />
         <Route path='/Task-6-ADV/' element={<Home />}></Route>
         <Route path='/Details/:id' element={<Details />}></Route>
         <Route path='/Newsletter' element={<NewsLetter />}></Route>
