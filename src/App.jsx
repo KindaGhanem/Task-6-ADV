@@ -35,16 +35,14 @@ function App() {
   
   return (
     <>
-
-      <Routes>
       <NavBar name={'Your Name'} logoDesc='logo' items={navItems} btn='login' />
+      <Routes>
         <Route path="/" element={<Navigate to="/Task-6-ADV/" />} />
         <Route path='/Task-6-ADV/' element={<Home />}></Route>
         <Route path='/Details/:id' element={<Details />}></Route>
         <Route path='/Newsletter' element={<NewsLetter />}></Route>
-        <Footer date={'© 2023'} linkk1={'Twitter'} linkk2={'LinkedIn'} linkk3={'Email'} linkk4={'RSS feed'} linkk5={'Add to Feedly'} />
-    </Routes>
-
+</Routes>
+      <Footer date={'© 2023'} linkk1={'Twitter'} linkk2={'LinkedIn'} linkk3={'Email'} linkk4={'RSS feed'} linkk5={'Add to Feedly'} />
       
     </> 
   )
