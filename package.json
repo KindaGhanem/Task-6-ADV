@@ -2,7 +2,7 @@
   "name": "task6",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://KindaGhanem.github.io/Task-6-ADV",
+  "homepage": "https://KindaGhanem.github.io/Task-6-ADV/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
