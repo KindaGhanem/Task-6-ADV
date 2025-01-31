@@ -632,22 +632,6 @@ video {
   height: 1.5rem;
 }
 
-.h-\[377px\]{
-  height: 377px;
-}
-
-.h-\[500px\]{
-  height: 500px;
-}
-
-.h-full{
-  height: 100%;
-}
-
-.h-screen{
-  height: 100vh;
-}
-
 .h-\[300px\]{
   height: 300px;
 }
@@ -656,8 +640,12 @@ video {
   height: 600px;
 }
 
-.h-\[450px\]{
-  height: 450px;
+.h-full{
+  height: 100%;
+}
+
+.h-screen{
+  height: 100vh;
 }
 
 .max-h-28{
@@ -694,10 +682,6 @@ video {
 
 .\!max-w-5xl{
   max-width: 64rem !important;
-}
-
-.max-w-100{
-  max-width: 770px;
 }
 
 .max-w-105{
@@ -890,6 +874,11 @@ video {
   padding-bottom: 2px;
 }
 
+.py-23{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -898,16 +887,6 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-23{
-  padding-top: 90px;
-  padding-bottom: 90px;
 }
 
 .pb-10{
@@ -960,10 +939,6 @@ video {
 
 .text-center{
   text-align: center;
-}
-
-.indent-1{
-  text-indent: 0.25rem;
 }
 
 .indent-3{
@@ -1138,10 +1113,6 @@ npx tailwindcss -i ./src/index.css -o ./src/App.css --watch */
     max-width: 778px;
   }
 
-  .md\:max-w-82{
-    max-width: 377px;
-  }
-
   .md\:max-w-83{
     max-width: 342px;
   }
@@ -1246,11 +1217,6 @@ npx tailwindcss -i ./src/index.css -o ./src/App.css --watch */
 
   .xl\:w-0\.5\/5{
     width: 31.6%;
-  }
-
-  .xl\:py-8{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
   }
 
   .xl\:text-110xl{
