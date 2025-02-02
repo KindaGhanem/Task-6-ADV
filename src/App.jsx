@@ -20,11 +20,11 @@ function App() {
       name : "Blog"
     },
     {
-      id:'/Task-6-ADV/' ,
+      id:'/' ,
       name : "Projects"
     },
     {
-      id:'/Task-6-ADV/' ,
+      id:'/' ,
       name : "About"
     },
     {
