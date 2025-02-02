@@ -16,7 +16,7 @@ function App() {
     // "Newsletter"
     
     {
-      id:'/Task-6-ADV/' ,
+      id:'/' ,
       name : "Blog"
     },
     {
